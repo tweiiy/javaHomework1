@@ -24,6 +24,15 @@ public class Main {
             System.out.println("Зеленый");
     }
 
+    public static void comparison(int firstInt, int secondInt){
+        if(firstInt>secondInt)
+            System.out.println("Первое число больше второго");
+        else if(firstInt<secondInt)
+            System.out.println("Второе число больше первого");
+        else
+            System.out.println("Числа равны");
+    }
+
     public static void main(String[] args) {
         System.out.println("Первый пункт:");
         print("Привет", "мир", "!");
@@ -46,5 +55,12 @@ public class Main {
         System.out.println("Число: 103");
         trafficLight(103);
 
+        System.out.println("\nЧетвертый пункт:");
+        System.out.println("Первое число: 2, второе число: 1");
+        comparison(2, 1);
+        System.out.println("Первое число: 4, второе число: 5");
+        comparison(4, 5);
+        System.out.println("Первое число: 6, второе число: 6");
+        comparison(6, 6);
     }
 }
