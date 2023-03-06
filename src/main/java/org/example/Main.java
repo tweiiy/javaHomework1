@@ -17,7 +17,7 @@ public class Main {
     public static void trafficLight(int lightInt){ // Третий пункт
         if(lightInt<=0)
             System.out.println("Красный");
-        else if(lightInt>0&&lightInt<=100)
+        else if(lightInt<=100)
             System.out.println("Желтый");
         else
             System.out.println("Зеленый");
